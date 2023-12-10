@@ -178,7 +178,7 @@ footer {
 /* Ensure image scaling is smooth on both browsers */
 .image-gallery img {
     width: 50%;
-    height: auto;
+    height: auto%;
     transition: transform 0.2s;
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
@@ -187,14 +187,14 @@ footer {
 
 /* Use -webkit- prefix for Safari-specific properties */
 .image-gallery .image-item:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     border: 4px solid rgb(9, 98, 8);
 }
 
 .image-description {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 20px;
 }
 
