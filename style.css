@@ -169,7 +169,7 @@ footer {
          text-align: center;
    }
    .image-gallery img {
-      width: 100%;
+      width: 200px;
       height: 290px;
       transition: transform 0.2s;
    }
