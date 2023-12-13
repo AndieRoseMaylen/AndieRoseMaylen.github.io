@@ -175,17 +175,16 @@ footer {
     text-align: center;
 }
 
-/* Ensure image scaling is smooth on both browsers */
+
 .image-gallery img {
     width: 50%;
     height: auto%;
     transition: transform 0.2s;
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
-    transform-origin: center center;
-}
+    transform-origin: center center;}
 
-/* Use -webkit- prefix for Safari-specific properties */
+
 .image-gallery .image-item:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
